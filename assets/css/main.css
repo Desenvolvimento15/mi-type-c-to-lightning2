@@ -13,9 +13,9 @@
 
 @font-face { font-family: CamphorPro-Light; src: url(/assets/css/fonts/CamphorPro-Light.woff) format("woff")}
 @font-face { font-family: CamphorPro-Regular; src: url(/assets/css/fonts/CamphorPro-Regular.woff) format("woff")}
-@font-face {font-family: CamphorPro-Bold; font-weight: 700; src: url(/assets/css/fonts/CamphorPro-Bold.woff) format("woff")}
+@font-face {font-family: CamphorPro-Bold;  src: url(/assets/css/fonts/CamphorPro-Bold.woff) format("woff")}
 @font-face { font-family: CamphorPro-Thin; src: url(/assets/css/fonts/CamphorPro-Thin.woff) format("woff")}
-@font-face { font-family: Camphor-Heavy; font-weight: 900; src: url(/assets/css/fonts/CamphorPro-Heavy.woff) format("woff")}
+@font-face { font-family: Camphor-Heavy;  src: url(/assets/css/fonts/CamphorPro-Heavy.woff) format("woff")}
 @font-face {font-family: CamphorPro-Medium; src: url(/assets/css/fonts/CamphorPro-Medium.woff) format("woff")}
 
 .f12 {font-size: .046875rem}
@@ -69,26 +69,13 @@
 .f130 {font-size: .507813rem}
 .f138 {font-size: .539063rem}
 .f140 {font-size: .546875rem}
+.f146 {font-size: .570313rem}
+.f148 {font-size: .578125rem}
+.f150 {font-size: .585938rem}
+.f160 {font-size: .625rem}
+.f200 {font-size: .78125rem}
 
-.f146 {
-    font-size: .570313rem
-}
-
-.f148 {
-    font-size: .578125rem
-}
-
-.f150 {
-    font-size: .585938rem
-}
-
-.f160 {
-    font-size: .625rem
-}
-
-.f200 {
-    font-size: .78125rem
-}
+/*-----------------------------------------------------------*/
 
 .overview-con {
     background-color: #fff;
@@ -106,7 +93,7 @@
 }
 
 .overview-con .section01 {
-    background-image: url("/assets/media/overview1-1.jpg");
+    background: url("/assets/media/overview1-1.jpg");
     background-size:100%;
     height: 4.375rem
 }
@@ -152,7 +139,7 @@
 }
 
 .overview-con .section02 {
-    background: url("/assets/media/overview2.jpg") 50% no-repeat;
+    background-image: url("../media/overview2.jpg") 50% no-repeat;
     background-size: 100% 100%;
     height: 4.6875rem
 }
