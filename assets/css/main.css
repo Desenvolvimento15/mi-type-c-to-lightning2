@@ -326,7 +326,8 @@
     font-weight: 700;
     margin: .285156rem auto auto;
     text-align: center;
-    width: 100%
+    width: 100%;
+    font-family: 'CamphorPro-Bold', sans-serif;
 }
 
 .overview-con .section05 .table {
@@ -334,7 +335,8 @@
     display: flex;
     flex-wrap: wrap;
     margin: .269531rem auto auto;
-    width: 5.898438rem
+    width: 5.898438rem;
+    font-family: 'CamphorPro-Medium', sans-serif;
 }
 
 .hairlines .overview-con .section05 .table {
@@ -356,7 +358,8 @@
     color: #000;
     font-size: .15625rem;
     height: .457031rem;
-    line-height: .457031rem
+    line-height: 0.2rem;
+    padding-top: 10px;
 }
 
 .overview-con .section05 .table .header span {
@@ -498,7 +501,8 @@
 
 .overview-con .section09 .title {
     color: #333;
-    font-weight: 700
+    font-weight: 700;
+    font-family: 'CamphorPro-Bold', sans-serif
 }
 
 .overview-con .section10 {
