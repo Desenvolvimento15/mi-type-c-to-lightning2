@@ -72,7 +72,6 @@
 .f160 {font-size: .625rem}
 .f200 {font-size: .78125rem}
 
-
 /*-----------------------------------------------------------*/
 
 .overview-con {
@@ -99,7 +98,7 @@
 .overview-con .section01 .text-container {
     display: flex;
     flex-direction: column;
-    padding: 1.398438rem 0 0 1.484375rem
+    padding: 1.398438rem 0 0 1.284375rem
 }
 
 .overview-con .section01 .text-container .text-mixture {
